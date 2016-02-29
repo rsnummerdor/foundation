@@ -1,0 +1,22 @@
+{
+    "name": "rsnummerdor/foundation",
+    "description": "A core set of code to support my other projects.",
+    "keywords": ["foundation", "php", "nimsp"],
+    "license": "Apache 2.0",
+    "homepage": "http://followthemoney.org",
+    "authors": [
+        {
+            "name": "Roger Nummerdor",
+            "email": "roger_nummerdor@followthemoney.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "foundation\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}      
